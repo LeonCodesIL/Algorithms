@@ -10,7 +10,7 @@ class BTnode {
 	BTnode *left;
 	BTnode *right;
 	BTnode *parent;
-
+	 
 	BTnode(string val, BTnode *leftSide, BTnode *rightSide, BTnode *newParent) {
 		 value = val;
 		 left = leftSide;
@@ -33,19 +33,22 @@ int size(BTnode *node) {
 	return 1 + size(node->left) + size(node->right);
 }
 
+
+int treverse(BTnode* root) {
+	BTnode* prev = root;
+
+	
+
+}
+
 int main() {
-	BTnode r("1", NULL, NULL, NULL);
+	BTnode r(NULL, NULL, NULL, NULL);
 	BTnode m("2", NULL, NULL, &r);
 	BTnode k("3", NULL, NULL, &m);
+
 
 	r.left = &m;
 	m.right = &k;
 
-	m = *m.parent;
-	
-	std::cout << &r << endl;
-	std::cout << &m.parent << endl;
 
-	std::cout << r.value << endl;
-	std::cout << m.value << endl;
 }
