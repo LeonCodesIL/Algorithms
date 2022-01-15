@@ -1,7 +1,2 @@
 ﻿  Source.cpp
-C:\Users\Leon\Desktop\Algorithms\Trees\Project1\Project1\Source.cpp(44,4): error C2819: type 'BTnode' does not have an overloaded member 'operator ->'
-C:\Users\Leon\Desktop\Algorithms\Trees\Project1\Project1\Source.cpp(7): message : see declaration of 'BTnode'
-C:\Users\Leon\Desktop\Algorithms\Trees\Project1\Project1\Source.cpp(44,4): message : did you intend to use '.' instead?
-C:\Users\Leon\Desktop\Algorithms\Trees\Project1\Project1\Source.cpp(44,7): error C2039: 'm': is not a member of 'BTnode'
-C:\Users\Leon\Desktop\Algorithms\Trees\Project1\Project1\Source.cpp(7): message : see declaration of 'BTnode'
-C:\Users\Leon\Desktop\Algorithms\Trees\Project1\Project1\Source.cpp(49,9): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'BTnode'
+  Project1.vcxproj -> C:\Users\Leon\Desktop\Algorithms\Trees\Project1\Debug\Project1.exe
