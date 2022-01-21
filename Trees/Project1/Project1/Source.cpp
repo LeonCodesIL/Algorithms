@@ -105,8 +105,6 @@ int main() {
 	insert(&n7, &r);
 	insert(&n8, &r);
 
-	//printf("%d\n", n5.parent->value);
-	//std::cout << r.left-> value << endl;
 	traverse(&r);
 
 
