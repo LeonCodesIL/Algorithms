@@ -87,6 +87,7 @@ void traverse(BTnode* root) {
 }
 
 int main() {
+	//making a tree to run a pre order search test
 	BTnode r(5, NULL, NULL, NULL);
 	BTnode n1(2, NULL, NULL, NULL);
 	BTnode n2(1, NULL, NULL, NULL);
