@@ -3,7 +3,7 @@
 #include <cstdlib>
 
 using namespace std;
-
+//node parent and children represented by pointers
 class BTnode {
   public:
 	int value;
